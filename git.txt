@@ -39,3 +39,6 @@ $ git checkout -b dev
 $ git branch dev
 $ git checkout dev
 用git branch命令查看当前分支
+
+$ git merge dev dev分支合并到当前分支
+$ git branch -d dev删除dev分支
