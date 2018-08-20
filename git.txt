@@ -34,3 +34,8 @@ $ git push -u origin master  -u关联远程仓库,以后同步不用这个参数
 
 git clone addr	从远程克隆到本地
 
+$ git checkout -b dev
+创建并切换到分支相当于:
+$ git branch dev
+$ git checkout dev
+用git branch命令查看当前分支
