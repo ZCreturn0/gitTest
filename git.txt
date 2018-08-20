@@ -1,0 +1,36 @@
+初始化一个Git仓库，使用git init命令。
+
+添加文件到Git仓库，分两步：
+1.使用命令git add <file>，注意，可反复多次使用，添加多个文件；
+2.使用命令git commit -m <message>，完成。
+
+git status命令可以让我们时刻掌握仓库当前的状态
+如果git status告诉你有文件被修改过，用git diff可以查看修改内容
+
+用git log可以查看提交历史(输出commit id)
+在版本的历史之间穿梭，使用命令git reset --hard commit_id
+用git reflog查看命令历史
+
+git checkout -- file丢弃工作区的修改
+git reset HEAD <file>可以把暂存区的修改撤销掉
+git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。
+checkout    工作区
+reset       暂存区
+
+git checkout -- file	还原文件
+删除文件:
+1.错误删除:
+从硬盘删除,删错了,用git checkout -- file还原文件
+2.彻底删除
+git rm file	从版本中删除
+git commit
+
+$ ssh-keygen -t rsa -C "youremail@example.com"生成key
+
+$ git remote add origin git@github.com:ZCreturn0/gitTest.git  关联远程仓库
+远程库的名字就是origin，这是Git默认的叫法
+
+$ git push -u origin master  -u关联远程仓库,以后同步不用这个参数
+
+git clone addr	从远程克隆到本地
+
