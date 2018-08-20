@@ -1,36 +1,36 @@
-³õÊ¼»¯Ò»¸öGit²Ö¿â£¬Ê¹ÓÃgit initÃüÁî¡£
+ï»¿åˆå§‹åŒ–ä¸€ä¸ªGitä»“åº“ï¼Œä½¿ç”¨git initå‘½ä»¤ã€‚
 
-Ìí¼ÓÎÄ¼şµ½Git²Ö¿â£¬·ÖÁ½²½£º
-1.Ê¹ÓÃÃüÁîgit add <file>£¬×¢Òâ£¬¿É·´¸´¶à´ÎÊ¹ÓÃ£¬Ìí¼Ó¶à¸öÎÄ¼ş£»
-2.Ê¹ÓÃÃüÁîgit commit -m <message>£¬Íê³É¡£
+æ·»åŠ æ–‡ä»¶åˆ°Gitä»“åº“ï¼Œåˆ†ä¸¤æ­¥ï¼š
+1.ä½¿ç”¨å‘½ä»¤git add <file>ï¼Œæ³¨æ„ï¼Œå¯åå¤å¤šæ¬¡ä½¿ç”¨ï¼Œæ·»åŠ å¤šä¸ªæ–‡ä»¶ï¼›
+2.ä½¿ç”¨å‘½ä»¤git commit -m <message>ï¼Œå®Œæˆã€‚
 
-git statusÃüÁî¿ÉÒÔÈÃÎÒÃÇÊ±¿ÌÕÆÎÕ²Ö¿âµ±Ç°µÄ×´Ì¬
-Èç¹ûgit status¸æËßÄãÓĞÎÄ¼ş±»ĞŞ¸Ä¹ı£¬ÓÃgit diff¿ÉÒÔ²é¿´ĞŞ¸ÄÄÚÈİ
+git statuså‘½ä»¤å¯ä»¥è®©æˆ‘ä»¬æ—¶åˆ»æŒæ¡ä»“åº“å½“å‰çš„çŠ¶æ€
+å¦‚æœgit statuså‘Šè¯‰ä½ æœ‰æ–‡ä»¶è¢«ä¿®æ”¹è¿‡ï¼Œç”¨git diffå¯ä»¥æŸ¥çœ‹ä¿®æ”¹å†…å®¹
 
-ÓÃgit log¿ÉÒÔ²é¿´Ìá½»ÀúÊ·(Êä³öcommit id)
-ÔÚ°æ±¾µÄÀúÊ·Ö®¼ä´©Ëó£¬Ê¹ÓÃÃüÁîgit reset --hard commit_id
-ÓÃgit reflog²é¿´ÃüÁîÀúÊ·
+ç”¨git logå¯ä»¥æŸ¥çœ‹æäº¤å†å²(è¾“å‡ºcommit id)
+åœ¨ç‰ˆæœ¬çš„å†å²ä¹‹é—´ç©¿æ¢­ï¼Œä½¿ç”¨å‘½ä»¤git reset --hard commit_id
+ç”¨git reflogæŸ¥çœ‹å‘½ä»¤å†å²
 
-git checkout -- file¶ªÆú¹¤×÷ÇøµÄĞŞ¸Ä
-git reset HEAD <file>¿ÉÒÔ°ÑÔİ´æÇøµÄĞŞ¸Ä³·Ïúµô
-git resetÃüÁî¼È¿ÉÒÔ»ØÍË°æ±¾£¬Ò²¿ÉÒÔ°ÑÔİ´æÇøµÄĞŞ¸Ä»ØÍËµ½¹¤×÷Çø¡£
-checkout    ¹¤×÷Çø
-reset       Ôİ´æÇø
+git checkout -- fileä¸¢å¼ƒå·¥ä½œåŒºçš„ä¿®æ”¹
+git reset HEAD <file>å¯ä»¥æŠŠæš‚å­˜åŒºçš„ä¿®æ”¹æ’¤é”€æ‰
+git resetå‘½ä»¤æ—¢å¯ä»¥å›é€€ç‰ˆæœ¬ï¼Œä¹Ÿå¯ä»¥æŠŠæš‚å­˜åŒºçš„ä¿®æ”¹å›é€€åˆ°å·¥ä½œåŒºã€‚
+checkout    å·¥ä½œåŒº
+reset       æš‚å­˜åŒº
 
-git checkout -- file	»¹Ô­ÎÄ¼ş
-É¾³ıÎÄ¼ş:
-1.´íÎóÉ¾³ı:
-´ÓÓ²ÅÌÉ¾³ı,É¾´íÁË,ÓÃgit checkout -- file»¹Ô­ÎÄ¼ş
-2.³¹µ×É¾³ı
-git rm file	´Ó°æ±¾ÖĞÉ¾³ı
+git checkout -- file	è¿˜åŸæ–‡ä»¶
+åˆ é™¤æ–‡ä»¶:
+1.é”™è¯¯åˆ é™¤:
+ä»ç¡¬ç›˜åˆ é™¤,åˆ é”™äº†,ç”¨git checkout -- fileè¿˜åŸæ–‡ä»¶
+2.å½»åº•åˆ é™¤
+git rm file	ä»ç‰ˆæœ¬ä¸­åˆ é™¤
 git commit
 
-$ ssh-keygen -t rsa -C "youremail@example.com"Éú³Ékey
+$ ssh-keygen -t rsa -C "youremail@example.com"ç”Ÿæˆkey
 
-$ git remote add origin git@github.com:ZCreturn0/gitTest.git  ¹ØÁªÔ¶³Ì²Ö¿â
-Ô¶³Ì¿âµÄÃû×Ö¾ÍÊÇorigin£¬ÕâÊÇGitÄ¬ÈÏµÄ½Ğ·¨
+$ git remote add origin git@github.com:ZCreturn0/gitTest.git  å…³è”è¿œç¨‹ä»“åº“
+è¿œç¨‹åº“çš„åå­—å°±æ˜¯originï¼Œè¿™æ˜¯Gité»˜è®¤çš„å«æ³•
 
-$ git push -u origin master  -u¹ØÁªÔ¶³Ì²Ö¿â,ÒÔºóÍ¬²½²»ÓÃÕâ¸ö²ÎÊı
+$ git push -u origin master  -uå…³è”è¿œç¨‹ä»“åº“,ä»¥ååŒæ­¥ä¸ç”¨è¿™ä¸ªå‚æ•°
 
-git clone addr	´ÓÔ¶³Ì¿ËÂ¡µ½±¾µØ
+git clone addr	ä»è¿œç¨‹å…‹éš†åˆ°æœ¬åœ°
 
