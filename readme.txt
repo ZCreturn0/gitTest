@@ -4,4 +4,4 @@ added again
 now license is under directory
 1
 2
-master branch added
+fixed conflict merge
