@@ -16,6 +16,8 @@ $git reset HEAD <file>可以把暂存区的修改撤销掉
 $git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。
 checkout    工作区
 reset       暂存区
+$git reset --hard HEAD^ 回退版本
+$git reset --hard commit_id 回退版本
 
 $git checkout -- file	还原文件
 删除文件:
