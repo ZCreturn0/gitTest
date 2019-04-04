@@ -44,3 +44,18 @@ $ git checkout dev
 
 $ git merge dev dev分支合并到当前分支
 $ git branch -d dev删除dev分支
+
+$ git log --graph --pretty=oneline --abbrev-commit 查看合并情况
+
+$ git checkout -b dev
+等于
+$ git branch dev
+$ git checkout dev
+创建并切换到分支
+
+用git branch命令查看当前分支
+
+$ git merge dev   合并dev分支
+$ git branch -d dev  删除dev分支
+
+$ git branch    查看分支
