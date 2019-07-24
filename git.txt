@@ -11,7 +11,10 @@ $git status命令可以让我们时刻掌握仓库当前的状态
 在版本的历史之间穿梭，使用命令$git reset --hard commit_id
 用$git reflog查看命令历史
 
-$git checkout -- file丢弃工作区的修改
+$git diff 查看修改详情
+$git diff HEAD filename 查看版本库与当前文件的差异
+
+$git checkout -- file丢弃工作区的修改    回到最近一次git commit或git add时的状态
 $git reset HEAD <file>可以把暂存区的修改撤销掉
 $git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。
 checkout    工作区
