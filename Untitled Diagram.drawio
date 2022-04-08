@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T01:38:07.572Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="YjqhW3OLUek7_iFchLWe" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-08T01:44:04.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="N-df5w5XA86cqPbBjxwv" version="17.4.1" type="github">
   <diagram id="cCcrtTG4YtZ3M-jrRKzi" name="Page-1">
-    <mxGraphModel dx="1130" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,6 +165,60 @@
         </mxCell>
         <mxCell id="6nuq8oYSrlDfX3I86kUc-32" value="设置过期时间，可为不过期" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="791" y="764" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="851" y="804" as="sourcePoint" />
+            <mxPoint x="851.5000000000002" y="864" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="851" y="844" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-34" value="上架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="791" y="866" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="851" y="905" as="sourcePoint" />
+            <mxPoint x="851.5000000000002" y="965" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="851" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-36" value="推送上架通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="791" y="967" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-37" value="用户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="371" y="1050" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="990" as="sourcePoint" />
+            <mxPoint x="420" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420.52" y="990" as="sourcePoint" />
+            <mxPoint x="421.0200000000002" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420.52" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420.52" y="1091" as="sourcePoint" />
+            <mxPoint x="421.0200000000002" y="1151" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420.52" y="1131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-41" value="通过通知链接或兑换商城入口进入兑换界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="1152" width="120" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
