@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T01:52:24.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="WB2Gc5YUDZl38d79UI8N" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-08T02:07:56.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="KVc-RQXESwisYbKSoFtt" version="17.4.1" type="github">
   <diagram id="cCcrtTG4YtZ3M-jrRKzi" name="Page-1">
-    <mxGraphModel dx="988" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1248" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,6 +264,52 @@
         </mxCell>
         <mxCell id="6nuq8oYSrlDfX3I86kUc-52" value="所有兑换按钮可用（包含积分不足物品）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="623" y="1263.5" width="127" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="686.0799999999999" y="1299.9999999999995" as="sourcePoint" />
+            <mxPoint x="686.5800000000002" y="1359.9999999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="686.0799999999999" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6nuq8oYSrlDfX3I86kUc-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6nuq8oYSrlDfX3I86kUc-55" target="6nuq8oYSrlDfX3I86kUc-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-55" value="兑换物品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="621" y="1360" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-58" value="兑换成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-59" value="积分足够" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1350" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-61" value="提示积分不足，需要借分，是否进行借分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-62" value="积分不足" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="821" y="1350" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-63" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="959.4699999999999" y="1499.9999999999998" as="sourcePoint" />
+            <mxPoint x="959.9700000000001" y="1560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="959.47" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nuq8oYSrlDfX3I86kUc-64" value="填写借分人及向其借的分值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1560" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
