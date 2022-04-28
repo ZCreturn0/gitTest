@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T10:20:11.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="QZ0m8cwH024LCv6twAvc" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-28T10:26:07.549Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="0CpBUnn_s1BTJdat_yz6" version="17.4.3" type="github">
   <diagram id="k0uqCXDUlrTSELM2RobN" name="Page-1">
     <mxGraphModel dx="1960" dy="1225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -115,6 +115,9 @@
         <mxCell id="lZlfqCbx2yauORps3Pyc-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="lZlfqCbx2yauORps3Pyc-40" target="lZlfqCbx2yauORps3Pyc-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="lZlfqCbx2yauORps3Pyc-40" target="lZlfqCbx2yauORps3Pyc-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lZlfqCbx2yauORps3Pyc-40" value="允许积分混用" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1110" y="410" width="190" height="70" as="geometry" />
         </mxCell>
@@ -122,7 +125,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lZlfqCbx2yauORps3Pyc-42" value="两站加起来够积分" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="920" y="510" width="190" height="70" as="geometry" />
+          <mxGeometry x="910" y="510" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lZlfqCbx2yauORps3Pyc-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="lZlfqCbx2yauORps3Pyc-43" target="lZlfqCbx2yauORps3Pyc-42">
           <mxGeometry relative="1" as="geometry" />
@@ -135,6 +138,42 @@
         </mxCell>
         <mxCell id="lZlfqCbx2yauORps3Pyc-46" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="985" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="lZlfqCbx2yauORps3Pyc-49" target="lZlfqCbx2yauORps3Pyc-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-49" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-51" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lZlfqCbx2yauORps3Pyc-52" target="lZlfqCbx2yauORps3Pyc-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="610" as="sourcePoint" />
+            <mxPoint x="1200" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-52" value="先清空斗鱼积分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="835" y="630" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="lZlfqCbx2yauORps3Pyc-53" target="lZlfqCbx2yauORps3Pyc-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-53" value="单站点够积分" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="520" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="lZlfqCbx2yauORps3Pyc-55" target="lZlfqCbx2yauORps3Pyc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-55" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-58" value="先判断斗鱼积分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="380" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lZlfqCbx2yauORps3Pyc-59" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lZlfqCbx2yauORps3Pyc-58" target="lZlfqCbx2yauORps3Pyc-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="690" as="sourcePoint" />
+            <mxPoint x="1200" y="640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
