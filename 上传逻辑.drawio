@@ -1,9 +1,199 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="TpkOAIIkjXfuxRcWigH8">
-    <mxGraphModel>
+    <mxGraphModel dx="933" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-1" value="用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-13" target="wqhQY9ebzxbw89WSfwtM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-3" value="上传服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-7" target="wqhQY9ebzxbw89WSfwtM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="380" as="sourcePoint" />
+            <mxPoint x="350" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-3" target="wqhQY9ebzxbw89WSfwtM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="380" as="sourcePoint" />
+            <mxPoint x="550" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-9" value="上传成功后直接通知用户，&lt;div&gt;用户可不再停留在当前页面&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-11" value="用户可用素材" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="410" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wqhQY9ebzxbw89WSfwtM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="410" as="sourcePoint" />
+            <mxPoint x="720" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="410" />
+              <mxPoint x="610" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-17" target="wqhQY9ebzxbw89WSfwtM-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="380" as="sourcePoint" />
+            <mxPoint x="80" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="205" />
+              <mxPoint x="70" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-18" value="管理所有图片，视频素材" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.463;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-18" target="wqhQY9ebzxbw89WSfwtM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="360" as="sourcePoint" />
+            <mxPoint x="500" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wqhQY9ebzxbw89WSfwtM-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="30" as="sourcePoint" />
+            <mxPoint x="740" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="20" />
+              <mxPoint x="740" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-22" value="主站" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-23" value="页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="412.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-25" target="wqhQY9ebzxbw89WSfwtM-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="360" as="sourcePoint" />
+            <mxPoint x="590" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.015;exitY=-0.011;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-15" target="wqhQY9ebzxbw89WSfwtM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="360" as="sourcePoint" />
+            <mxPoint x="590" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wqhQY9ebzxbw89WSfwtM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="160" as="sourcePoint" />
+            <mxPoint x="460" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-30" value="管理员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-32" target="wqhQY9ebzxbw89WSfwtM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-30" target="wqhQY9ebzxbw89WSfwtM-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="90" as="sourcePoint" />
+            <mxPoint x="190" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-32" value="删除/屏蔽图片" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-3" target="wqhQY9ebzxbw89WSfwtM-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="205" as="sourcePoint" />
+            <mxPoint x="295" y="428" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-17" value="定期检查用户素材，&lt;div&gt;删除长期未使用的素材&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="185" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-3" target="wqhQY9ebzxbw89WSfwtM-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="220" as="sourcePoint" />
+            <mxPoint x="350" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-13" value="接收到用户上传数据后服务器对数据做处理&lt;div&gt;（生成缩略图，压缩等）&lt;/div&gt;&lt;div&gt;数据处理完后会加到用户可用数据中&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="290" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-23" target="wqhQY9ebzxbw89WSfwtM-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="428" as="sourcePoint" />
+            <mxPoint x="375" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-15" value="获取自己可用素材&lt;div&gt;选择素材发帖&lt;/div&gt;&lt;div&gt;发帖素材标记为已使用&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.547;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-1" target="wqhQY9ebzxbw89WSfwtM-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="90" as="sourcePoint" />
+            <mxPoint x="400" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-29" value="授权用户信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.058;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-1" target="wqhQY9ebzxbw89WSfwtM-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="75" as="sourcePoint" />
+            <mxPoint x="350" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-7" value="上传" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="60" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="60" as="sourcePoint" />
+            <mxPoint x="520" y="30" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-21" value="发帖&lt;div&gt;传入帖子内容及素材链接&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-23" target="wqhQY9ebzxbw89WSfwtM-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="413" as="sourcePoint" />
+            <mxPoint x="740" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-25" value="获取帖子内容" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wqhQY9ebzxbw89WSfwtM-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="410" as="sourcePoint" />
+            <mxPoint x="530" y="410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqhQY9ebzxbw89WSfwtM-27" value="获取帖子素材" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
